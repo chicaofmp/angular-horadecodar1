@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'angular1';
+export class AppComponent{
+
+  nomeCompleto = "Chico BR"; 
+  ageIdade = 111;
+
+  fun = ["CSGO", "Basket", "Fortaleza"];
+
 }
